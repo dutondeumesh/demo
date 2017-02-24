@@ -4,6 +4,7 @@ import java.io.BufferedInputStream;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
+import java.io.BufferedInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -24566,6 +24567,7 @@ class HelloWorld
 //a basic class Box
 class Box
 {
+int r , t;
   int w,h;
 	void info()
 	{
