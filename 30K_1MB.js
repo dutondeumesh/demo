@@ -1,4 +1,4 @@
-﻿/*
+/*
 //------------------------------------------------------------------------------------------------------------------------------------------------------------
 File Name:postgres_v6.xjs
 Last Modified Date: 07 -04 -2014
@@ -21,6 +21,9 @@ importPackage(java.util);
 
 var maxRows                  =10;   //minimum number of rows to be inserted for each table.
 var allowTimestamp           = true; 
+var  v1 = -10;
+var v3 = 55;
+
 var server                   =  "postgres";
 var database                 =  "Test_DB"; 
 var schema                   = "public";  //hardcoded
